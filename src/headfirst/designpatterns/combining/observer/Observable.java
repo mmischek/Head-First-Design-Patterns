@@ -2,7 +2,13 @@ package headfirst.designpatterns.combining.observer;
 
 import java.util.Iterator;
 import java.util.ArrayList;
-
+/**
+ * Observer Pattern
+ * implements Quackable
+ * own observer methods: register, notify
+ * @author bethrobson
+ * commends written by matthias mischek - tgm
+ */
 public class Observable implements QuackObservable {
 	ArrayList<Observer> observers = new ArrayList<Observer>();
 	QuackObservable duck;

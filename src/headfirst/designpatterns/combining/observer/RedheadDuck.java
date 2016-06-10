@@ -1,5 +1,10 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * Observer Pattern
+ * implements Quackable
+ * @author bethrobson
+ * commends written by matthias mischek - tgm
+ */
 public class RedheadDuck implements Quackable {
 	Observable observable;
 

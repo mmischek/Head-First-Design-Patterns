@@ -1,5 +1,11 @@
 package headfirst.designpatterns.combining.observer;
-
+/**
+ * Observer Pattern
+ * counts the quack
+ * implements Quackable
+ * @author bethrobson
+ * commends written by matthias mischek - tgm
+ */
 public class QuackCounter implements Quackable {
 	Quackable duck;
 	static int numberOfQuacks;

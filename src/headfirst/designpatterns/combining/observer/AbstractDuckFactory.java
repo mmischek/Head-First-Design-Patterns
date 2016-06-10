@@ -1,5 +1,10 @@
 package headfirst.designpatterns.combining.observer;
 
+/**
+ * Abstract Factory of the Factory Pattern
+ * @author bethrobson
+ * commends written by matthias mischek - tgm
+ */
 public abstract class AbstractDuckFactory {
  
 	public abstract Quackable createMallardDuck();
